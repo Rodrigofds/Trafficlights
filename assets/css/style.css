@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;  
+}
+
+.container {
+    display: flex;
+    justify-content: row;
+    width: 100%;
+}
+
+.esquerda {
+    background-color: #EEE;
+    width: 60%;
+}
+
+.esq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    width: 260px;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 80px;
+
+}
+
+.luz {
+    background-color: #888;
+    width: 170px;
+    height: 170px;  
+    border-radius: 85px;
+    margin-bottom: 12px;
+}
+
+.vermelha {
+    background-color: #F00;
+}
+
+.amarela {
+    background-color: #FF0;;
+}
+
+.verde {
+    background-color: #0F0;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.avisos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+ }
+
+ .pare {
+    display: inline-block;
+    background-color: #F00;
+    border-radius: 25px;
+    padding: 10px 150px;
+    margin-top: 100px;
+    margin-bottom: 35px;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFF;
+ }
+
+ .atencao {
+    display: inline-block;
+    background-color: #FF0;
+    border-radius: 25px;
+    padding: 10px 110px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+ }
+
+ .siga {
+    display: inline-block;
+    background-color: #0F0;
+    border-radius: 25px;
+    padding: 10px 150px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+ }
+
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AAA;
+    height: 50%;
+}
+
+.iniciar {
+    font-size: 65px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 1px 160px; 
+    border-radius: 30px;
+}
