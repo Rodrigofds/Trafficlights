@@ -3,13 +3,13 @@ body {
     padding: 0;  
 }
 
-.container {
+.container { /* Define the screnn's application */
     display: flex;
     justify-content: row;
     width: 100%;
 }
 
-.esquerda {
+.esquerda { /* Define the left side of the screen */
     background-color: #EEE;
     width: 60%;
 }
@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-.semaforo {
+.semaforo { /* Define the body structure of the traffic light. */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
 
 }
 
-.luz {
+.luz { /* Define the light of traffic light with gray color as default. */
     background-color: #888;
     width: 170px;
     height: 170px;  
@@ -41,25 +41,25 @@ body {
     margin-bottom: 12px;
 }
 
-.vermelha {
+.vermelha { /* Used by JS to change gray to red color. */
     background-color: #F00;
 }
 
-.amarela {
+.amarela { /* Used by JS to change gray to yellow color. */
     background-color: #FF0;;
 }
 
-.verde {
+.verde { /* Used by JS to change gray to green color. */
     background-color: #0F0;
 }
 
-.direita {
+.direita { /* Define the right side of the screen. */
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
-.avisos{
+.avisos{ /* Define the warnings section of the screen. */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +67,7 @@ body {
     height: 80%;
  }
 
- .pare {
+ .pare { /* Warns to Stop. */
     display: inline-block;
     background-color: #F00;
     border-radius: 25px;
@@ -80,7 +80,7 @@ body {
     color: #FFF;
  }
 
- .atencao {
+ .atencao { /* Warns to Attention. */
     display: inline-block;
     background-color: #FF0;
     border-radius: 25px;
@@ -93,7 +93,7 @@ body {
     color: #000;
  }
 
- .siga {
+ .siga { /* Warns to Go ahead. */
     display: inline-block;
     background-color: #0F0;
     border-radius: 25px;
@@ -106,7 +106,7 @@ body {
     color: #000;
  }
 
-.controles {
+.controles { /* That define de controls section where the start(início) button is. */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@ body {
     height: 50%;
 }
 
-.iniciar {
+.iniciar { /* That define the start button */
     font-size: 65px;
     font-family: Arial;
     font-weight: bold;
